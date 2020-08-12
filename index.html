@@ -1,0 +1,134 @@
+<!-- This is the Welcome Page of Website-->
+<!-- Backend Script will detect if user is logged in, if yes then redirect to home page -->
+
+<!-- Same navbar for ABOUT page-->
+<!-- If user is logged in, Dispay his uername at navbar instaed of login/signup-->
+
+<!-- Same navbar for other pages but it contains quiz, study and discuss rather than home, services and contact-->
+<!-- If user try to visit other pages without login, redirect to login/signup page-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A learning website for overall academic development of students.">
+    <meta name="keywords" content="akademiks, learning, quiz, welcome, study, academic, learn">
+    <meta name="robots" content="INDEX, FOLLOW">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index_style.css">
+
+    <!--Title Of Page-->
+    <title>AkademiKs - Learn, Practice and Discuss</title>
+</head>
+<body>
+
+<!--##############################################  Navbar  ###########################################################-->
+    <header>
+        <nav class="mainnavbar">
+            
+            <div class="nav_item" id="logo">
+                <em><a href="index.html">AkademiKs</a></em>
+            </div>
+
+            <div class="nav_item" id="menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html#services_section">Services</a></li>
+                    <li><a href="index.html#contact_section">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav_item" id="rightnav">
+                <div id="login"><a href="login.html">Login</a></div>
+                <div id="signup"><a href="signup.html">Signup</a></div>    
+            </div>
+        </nav>
+    </header>
+<!--##############################################  Navbar End  #######################################################-->
+    
+    <div class="container">
+        
+    <!--##########################################  Main Section  #################################################-->    
+        <section id="mainsection">
+            <p class="headpara">ONE SITE FOR YOUR OVERALL ACADEMIC DEVELOPMENT.</p>
+            <p class="bodypara">Join AkademiKs And Participate In Quizes, Share Notes And Tutorials And Discuss With Fellow Learners And Mentors.</p>
+            <div style="margin:8vh 0;">
+                <a href="#sec1" class="learn_more" id="main_learn_more">Learn More</a>
+            </div>
+        </section>
+    <!--########################################  Main Section End  ################################################-->
+    
+
+    <!--######################  Other Sections - Why Akademiks, Service, Join and Contact  #########################-->
+        
+        <section class="section" id="sec1">
+            <h1 class="head">Why AkademiKs?</h1>
+            <p>From Study Resources To Quiz Section Along With A Discuss Section To Ask Questions, We Got It All! Share Notes, Ebooks And Learn From Tutorials. Interact With Fellow Peers And Mentors.</p>
+            <div style="margin:3vw 0;">
+                <a href="home.html" class="learn_more" id="learn_more1">Get Started!</a>
+            </div>
+        </section>
+
+        <section class="section" id="services_section">
+            <h1 class="head">At Your Service</h1>
+            <div class="service_icon_container">
+                <a class="service_icon" href="quiz.html">
+                    <i class="fas fa-4x fa-laptop-code"></i>
+                    <h2>Quiz</h2>
+                    <div class="para2">Participate In Cool Quizzes To Boost Your Skills.</div>
+                </a>
+                <a class="service_icon" href="study.html">
+                    <i class="fas fa-4x fa-globe"></i>
+                    <h2>Study Resources</h2>
+                    <div class="para2">Share Notes, E-books and Learn From Tutorials!</div>
+                </a>
+                <a class="service_icon" href="discuss.html">
+                    <i class="fas fa-4x fa-graduation-cap"></i>
+                    <h2>Discuss</h2>
+                    <div class="para2">Ask Questions And Interact With Your Peers And Mentors.</div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section" id="sec3">
+            <h1 class="head">Join Akademiks and Start Learning!</h1>
+            <div style="margin:5vh 0;">
+                <a href="home.html" class="learn_more" id="learn_more3">AkademiKs Home Page</a>
+            </div>
+        </section>
+        
+        <section class="section" id="contact_section">
+            <h1 class="head">Let's Get In Touch!</h1>
+            <div class="contact_section_para">Facing any issues or want to give us any feedback? Give us a call or send us an email and we will get back to you as soon as possible!</div>
+            <div class="contact_icon_container">
+                <div class="contact_icon">
+                    <i class="fas fa-phone fa-3x"></i>
+                    <div class="contact_icon_description">+91 XXX XXX XXXX</div>
+                </div>
+                <div class="contact_icon">
+                    <i class="fas fa-envelope fa-3x"></i>
+                    <div class="contact_icon_description"><a class="d-block" href="mailto:lakshaydhingra32969@gmail.com">lakshaydhingra32969@gmail.com</a></div>
+                </div>
+            </div>
+        </section>
+
+    <!--#####################################  Other Sections End  ##########################################-->
+
+    </div>
+
+</body>
+</html>

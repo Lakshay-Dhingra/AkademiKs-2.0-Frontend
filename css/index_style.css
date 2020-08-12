@@ -1,0 +1,132 @@
+/* Section in a Page */
+    .section
+    {
+        padding:14vh 0 12vh 0;
+        /* border:solid; */
+    }
+    .section h1
+    {
+        font-size:2vw;
+    }
+    .section p
+    {
+        font-size:1.3vw;
+        padding:4vh 16vw 0 16vw;
+    }
+
+/* Learn More Button */
+    .learn_more
+    {
+        text-decoration: none;
+        font-size: 1.2vw;
+        border-radius:2vw;
+        padding:0.9vw 1.8vw;
+        font-weight: 800;
+    }
+
+/* One Site for ... Develelopment - Main Section*/
+    #mainsection
+    {
+        /* border:solid; */
+        padding:16vh 22vw 12vh 22vw;
+    }
+    .headpara
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3.7vw;
+        font-weight: 650;
+        color:rgba(0, 0, 255, 0.3);
+        -webkit-text-stroke-width: 2.5px; 
+        -webkit-text-stroke-color: darkblue;
+        /* border:solid; */
+    }
+    .bodypara
+    {
+        padding: 6vh 4vw 0vh 4vw;
+        color:darkblue;
+        font-size: 1.2vw;
+        /* border:solid; */
+    }
+    /* Learn More Button of Main Section */
+    #main_learn_more
+    {
+        color:darkblue;
+        background-color:rgba(0, 0, 255, 0.3);
+        border:2px solid darkblue;
+    }
+    #main_learn_more:hover
+    {
+        background-color:rgba(0, 0, 255, 0.4);
+    }
+
+/* Why Akademiks? - Section1*/
+    #sec1
+    {
+        margin-top:5vh;
+        background-color: rgba(255, 0, 0, 0.15);
+        color:darkred;
+    }
+    #learn_more1
+    {
+        color:white;
+        background-color:rgba(223, 6, 6, 0.8);
+        border:2px solid darkred;
+    }
+    #learn_more1:hover
+    {
+        background-color:rgba(223, 6, 6, 0.9);
+    }
+
+/* At your Service section - Section2*/
+    #services_section
+    {
+        background-color: white;
+    }
+
+/* Join Akademiks and start learning - Section3 */
+    #sec3
+    {
+        background-color: #343a40;
+        color:white;
+    }
+    #learn_more3
+    {
+        color:#343a40;
+        background-color:white;
+        /* border:2px solid darkred; */
+    }
+    #learn_more3:hover
+    {
+        background-color:rgba(255,255,255, 0.9);
+    }
+
+/* Container of Font-Awesome Icons (Red) */
+    .service_icon_container
+    {
+        padding: 10vh 0 4vh 0;
+        display:flex;
+        flex-wrap:wrap;
+        width:70vw;
+        margin:auto;
+        justify-content: space-between;
+        /* border:solid; */
+    }
+    .service_icon
+    {
+        display:block;
+        text-decoration:none;
+        color:rgb(235, 0, 0);
+        width:22vw;
+        /* border:solid; */
+    }
+    .service_icon h2
+    {
+        padding-top:2vh;
+    }
+    .service_icon .para2
+    {
+        font-size: 1.1vw;
+        color:#343a40;
+    }
+
+/* Contact - Section4 in style.css */

@@ -1,0 +1,146 @@
+<!-- This the home page or navigation page of the website-->
+
+<!--BACKEND/JS - If user try to visit this page without login, redirect to login/signup page-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home_style.css">
+
+    <!--Title Of Page-->
+    <title>Home - AkademiKs</title>
+</head>
+<body>
+
+    <!--##############################################  Navbar  ###########################################################-->
+    <header>
+        <nav class="mainnavbar">
+            
+            <div class="nav_item" id="logo">
+                <em><a href="index.html">AkademiKs</a></em>
+            </div>
+
+            <div class="nav_item" id="menu">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="study.html">Study Resources</a></li>
+                    <li><a href="discuss.html">Discuss</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav_item" id="rightnav">
+
+                <!-- Backend will provide user_name and its url -->
+                <div id="login"><a href="user_name_url.html">USER_NAME_XYZ</a></div>
+
+                <!-- Backend will logout user from session on clicking this... -->
+                <div id="signup"><a href="#">Logout</a></div>    
+            </div>
+        </nav>
+    </header>
+    <!--##############################################  Navbar End  #######################################################-->
+    
+    <div class="container">
+    <div id="page_container">
+        
+        <!--###########################################  Main Carousel  #################################################-->
+        <section id="main_carousel">
+            <!-- Carousel from bootstrap-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="img/home_img_1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="img/home_img_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="img/home_img_4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+        </section>
+        <!--###########################################  Main Carousel End  ############################################-->
+        
+        <!--###########################################  Intro Section  ################################################-->
+        <section id="intro_sec">
+            <div class="intro_sec_item">New to this website and don't know where to start?</div>
+            <div class="intro_sec_item"><a href="getting_started.html">Getting Started</a></div>
+            <div class="intro_sec_item"><a href="discuss.html">Discussion Forums</a></div>
+            <div class="intro_sec_item"><a href="study.html">Study Resources</a></div>
+        </section>
+        <!--##########################################  Intro Section End  #############################################-->
+
+        <!--###########################################  Main Section  #################################################-->
+        <div id="main_section">
+
+            <aside id="left_aside">
+                <p id="left_aside_heading">Announcements</p>
+                <ul>
+                    <li>Welcome to AkademiKs</li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni voluptate nulla earum veritatis tenetur tempore consequatur esse accusamus repellendus? Quos soluta quaerat maiores. Ex et laboriosam cumque voluptatibus, quibusdam numquam perferendis optio quo ea!</p>
+
+                    <li>Discuss Forums not ready yet!</li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis vitae odio exercitationem quidem? Quisquam, praesentium. Et enim maxime ex?</p>
+                </ul>
+            </aside>
+
+            <section id="rhs_section">
+                <!-- Replace this whole section with Iframe of discuss or getting started page -->
+                <h2>Discussion Forums</h2>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel distinctio suscipit nihil dolor magnam dolore ut fugiat optio in ipsum deleniti, quis harum sapiente, expedita nostrum qui alias ad! Ipsam numquam, amet animi tempore fuga veritatis, molestias nesciunt rem quia exercitationem adipisci suscipit nostrum ab harum laborum. Eum, ipsa voluptate.
+                </p>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel distinctio suscipit nihil dolor magnam dolore ut fugiat optio in ipsum deleniti, quis harum sapiente, expedita nostrum qui alias ad! Ipsam numquam, amet animi tempore fuga veritatis, molestias nesciunt rem quia exercitationem adipisci suscipit nostrum ab harum laborum. Eum, ipsa voluptate.
+                </p>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel distinctio suscipit nihil dolor magnam dolore ut fugiat optio in ipsum deleniti, quis harum sapiente, expedita nostrum qui alias ad! Ipsam numquam, amet animi tempore fuga veritatis, molestias nesciunt rem quia exercitationem adipisci suscipit nostrum ab harum laborum. Eum, ipsa voluptate.
+                </p>
+                <br>
+            </section>
+
+        </div>
+        <!--###########################################  Main Section End  #################################################-->
+
+    </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+#left_aside li
+{
+    /* list-style: inside; */
+    color: black;
+    font-weight: 600;
+    margin:1vh 0;
+    text-align: left;
+}
+
+#left_aside ul p
+{
+    font-size:0.9em;
+    color:darkred;
+    text-align: justify;
+}
